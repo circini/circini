@@ -1,0 +1,8 @@
+[package]
+name = "circini-core"
+version = "0.0.1"
+authors = ["Davi Silva <blueridanus@gmail.com>"]
+
+[dependencies]
+circini-derive = { path = "../derive" }
+

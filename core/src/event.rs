@@ -178,3 +178,9 @@ where
         E::check_any(ev)
     }
 }
+
+impl Clone for AnyEvent {
+    fn clone(&self) -> Self {
+        unimplemented!()
+    }
+}
